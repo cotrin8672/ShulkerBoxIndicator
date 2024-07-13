@@ -23,3 +23,10 @@ logoFile = "logo.png"
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="kotlinforforge"
+    type="required"
+    versionRange="${loader_version_range}"
+    ordering="NONE"
+    side="BOTH"
