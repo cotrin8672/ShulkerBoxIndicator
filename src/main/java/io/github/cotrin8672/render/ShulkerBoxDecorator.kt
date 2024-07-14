@@ -36,8 +36,8 @@ class ShulkerBoxDecorator : IItemDecorator {
                 with(pose) {
                     with(minecraft) {
                         with(guiGraphics) {
-                            renderItemModel(xOffset + 3f, yOffset + 11f, 6f, firstDisplayStack)
-                            renderItemModel(xOffset + 9.5f, yOffset + 11f, 6f, secondDisplayStack)
+                            renderItemModel(xOffset + 3f, yOffset + 11f, 6.25f, firstDisplayStack)
+                            renderItemModel(xOffset + 9.25f, yOffset + 11f, 6.25f, secondDisplayStack)
                         }
                     }
                 }
@@ -50,9 +50,9 @@ class ShulkerBoxDecorator : IItemDecorator {
                 with(pose) {
                     with(minecraft) {
                         with(guiGraphics) {
-                            renderItemModel(xOffset + 3f, yOffset + 13f, 6f, firstDisplayStack)
-                            renderItemModel(xOffset + 9.5f, yOffset + 13f, 6f, secondDisplayStack)
-                            renderItemModel(xOffset + 6.25f, yOffset + 6.5f, 6f, thirdDisplayStack)
+                            renderItemModel(xOffset + 3f, yOffset + 12f, 6.25f, firstDisplayStack)
+                            renderItemModel(xOffset + 9.25f, yOffset + 12f, 6.25f, secondDisplayStack)
+                            renderItemModel(xOffset + 6.25f, yOffset + 5.75f, 6.25f, thirdDisplayStack)
                         }
                     }
                 }
