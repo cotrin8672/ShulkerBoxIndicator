@@ -5,10 +5,6 @@ import net.minecraft.world.item.ItemStack
 import net.minecraft.world.item.Items
 import net.neoforged.neoforge.capabilities.Capabilities
 
-fun ItemStack.containsOnlyOneItemType(): Boolean {
-    return this.containsItemTypes().size == 1
-}
-
 fun ItemStack.containsItemTypes(): Set<Item> {
     if (!this.isShulkerBox()) return setOf()
     val cap = this.getCapability(Capabilities.ItemHandler.ITEM) ?: return setOf()
